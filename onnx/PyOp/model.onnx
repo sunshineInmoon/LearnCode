@@ -1,0 +1,64 @@
+
+pyop_model:ý
+
+A
+BS"Add
+
+C
+DP"Mul
+½
+S
+PLMN"PyOp*
+
+W1"5 *
+
+W2"7 *
+
+W3"9 *
+
+class_name"Multi_1 *
+compute"compute *
+input_types@@ *
+module"mymodule *
+output_types@@@ :pyopmulti_1
+
+L
+MH"Add
+‚
+H
+N
+EOW"PyOp*
+
+class_name"Multi_2 *
+input_types@@@ *
+module"mymodule *
+output_types@@ :pyopmulti_2
+
+O
+WF"Submulti_pyop_graphZ
+A
+
+
+Z
+B
+
+
+Z
+C
+
+
+Z
+D
+
+
+Z
+E
+
+
+b
+F
+
+
+B
+pyopmulti_1B
+pyopmulti_2
