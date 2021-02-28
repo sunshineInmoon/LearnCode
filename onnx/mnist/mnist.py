@@ -9,17 +9,19 @@ import onnxruntime
 from onnx import numpy_helper
 import pdb
 
-if __name__=='__main__':
 
+if __name__ == '__main__':
     model_dir = './mnist'
     #model=model_dir+'/model.onnx'
     #model = model_dir+'/mnist_hua.onnx'
-    model = model_dir+'/mnist_hua_remove_inputs.onnx'
+    #model = model_dir+'/mnist_hua_remove_inputs.onnx'
+    model = model_dir + '/mnist_new_params.onnx'
     if not os.path.exists(model):
         print(model)
     path=sys.argv[1]
     
     pdb.set_trace()
+    net = onnx.load(model)
     #Preprocess the image
     img = cv2.imread(path)
     img = np.dot(img[...,:3], [0.299, 0.587, 0.114])

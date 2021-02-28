@@ -1,2 +1,8 @@
 # model
 onnx/2/alexnet.onnx
+
+#PyCharme
+onnx/mnist/.idea/*
+
+# save
+onnx/PyTorchCustomOperator/ort_custom_op/build/CMakeFiles/*

@@ -11,13 +11,13 @@ add_executable(customop ${SOURCE} ${HEADER} ${TEST_SOURCE})
 #Include path to header files for Custom Op
 #include_directories(<PATH_TO_EIGEN_DIR>)
 #include_directories(<PATH_TO_ONNXRUNTIME_INCLUDE_DIR>)
-include_directories("/home/zhanghua/Tools/eigen")
-include_directories("/home/zhanghua/Tools/onnxruntime")
+include_directories("/home/***/Tools/eigen")
+include_directories("/home/***/Tools/onnxruntime")
 
 #Include path to header files for Custom Op Test
 #include_directories(<PATH_TO_ONNXRUNTIME_TEST_UTIL_INCLUDE_DIR>)
-include_directories("/home/zhanghua/Tools/onnxruntime/include/onnxruntime/core/session")
-include_directories("/data_1/zhanghua/onnx_learning/")
+include_directories("/home/***/Tools/onnxruntime/include/onnxruntime/core/session")
+include_directories("/data_1/***/onnx_learning/")
 
 #Linking dependencies for Custom Op
 find_library(ONNXRUNTIME_LIBRARY onnxruntime HINTS <PATH_TO_ONNXRUNTIME_LIB>)
